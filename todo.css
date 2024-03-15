@@ -1,0 +1,163 @@
+*{
+	margin: 0px;
+	border: 0px;
+	font-family: Georgia, serif;
+}
+
+body{
+	background-color: #191919;
+}
+
+.container{
+	height: 75vh;
+	width: 40vw;
+	background-color: transparent;
+	border-radius: 15px;
+	border : 5px solid rgb(255,255,255,0.5);
+	align-items: center;
+}
+
+.header{
+	font-size: 40px;
+	color: white;
+	margin-top: 30px;
+	opacity: 50%;
+
+}
+
+.header2{
+	font-size: 30px;
+	color: white;
+	margin-left: 20px;
+	margin-top: 20px;
+	opacity: 50%;
+
+}
+
+._input{
+	margin-top: 20px;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.get_input{
+
+	width: 70%;
+	height: 40px;
+	margin: 0px 0px 0px 20px;
+	background-color: #525559;
+	border-radius: 5px;
+	border: 3px transparent; white;
+	font-size: 20px;
+	color: white;
+
+
+}
+
+.addtask{
+	height: 42px;
+	width : 100px;
+	margin-right: 20px;
+	background-color: #525559;
+	border: 3px transparent white;
+	border-radius: 21px;
+	color: white;
+	font-size: 15px;
+}
+
+
+
+.get_input:hover{
+	background-color: #7a7f85;
+}
+
+.display_task{
+
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.task{
+	color: white;
+	font-size: 20px;
+	margin-left: 40px;
+}
+
+.addtask:hover,.delete:hover,.edit:hover{
+	cursor: pointer;
+	background-color: #7a7f85;
+
+}
+
+.delete{
+	height: 30px;
+	width : 60px;
+	margin-right: 15px;
+	background-color: #525559;
+	border: 3px transparent white;
+	border-radius: 21px;
+	color: white;
+	font-size: 15px;	
+}
+
+.edit{
+	height: 30px;
+	width : 60px;
+	margin-right: 15px;
+	background-color: #525559;
+	border: 3px transparent white;
+	border-radius: 21px;
+	color: white;
+	font-size: 15px;
+}
+
+.tasks{
+	height: 63%;
+	overflow: auto;
+	margin-right: 10px;
+	
+}
+
+
+
+.container2{
+	height: 75vh;
+	width: 40vw;
+	background-color: transparent;
+	border-radius: 15px;
+	border : 5px solid rgb(255,255,255,0.5);
+	align-items: center;
+	color: white;
+
+}
+
+.over_all_container{
+	height:100vh;
+	width: 100vw;
+	display:flex;
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+}
+
+.container,.container2{
+	margin:2%
+}
+
+
+.list_item{
+	margin-top: 7%;
+	font-size: 120%;
+
+}
+
+.list_container{
+	width:89%;
+	height:87%;
+	overflow: auto;
+}
+
